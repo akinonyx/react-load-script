@@ -75,6 +75,8 @@ export default class Script extends React.Component {
     if (observers) {
       delete observers[this.scriptLoaderId];
     }
+    this.constructor.scriptObservers = {}
+    this.constructor.loadedScripts = {}
   }
 
   createScript() {
