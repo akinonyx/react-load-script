@@ -6,7 +6,7 @@
   "author": "Blueberry",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blueberryapps/react-load-script.git"
+    "url": "https://github.com/akinonyx/react-load-script.git"
   },
   "scripts": {
     "build": "npm run build:lib",
